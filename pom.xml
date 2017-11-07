@@ -28,7 +28,7 @@
 
   <scm>
     <connection>scm:git:https://github.com/iterate-ch/google-http-java-client.git</connection>
-    <developerConnection>scm:git:git@github.com:google/google-http-java-client.git</developerConnection>
+    <developerConnection>scm:git:git@github.com:iterate-ch/google-http-java-client.git</developerConnection>
     <url>https://github.com/iterate-ch/google-http-java-client</url>
   </scm>
 
