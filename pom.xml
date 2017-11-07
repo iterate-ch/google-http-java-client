@@ -7,7 +7,7 @@
     <artifactId>oss-parent</artifactId>
     <version>7</version>
   </parent>
-  <groupId>com.google.http-client</groupId>
+  <groupId>ch.iterate.google-http-client</groupId>
   <artifactId>google-http-client-parent</artifactId>
   <version>1.24.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -184,57 +184,57 @@
         <version>${project.protobuf-java.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-appengine</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-android</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-protobuf</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-gson</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-jackson</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-jackson2</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-jdo</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-xml</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-findbugs</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
-        <groupId>com.google.http-client</groupId>
+        <groupId>ch.iterate.google-http-client</groupId>
         <artifactId>google-http-client-test</artifactId>
         <version>${project.version}</version>
       </dependency>
@@ -571,7 +571,7 @@
           <excludeFilterFile>${basedir}/../findbugs-exclude.xml</excludeFilterFile>
           <plugins>
             <plugin>
-              <groupId>com.google.http-client</groupId>
+              <groupId>ch.iterate.google-http-client</groupId>
               <artifactId>google-http-client-findbugs</artifactId>
               <version>${project.version}</version>
             </plugin>

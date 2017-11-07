@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.google.http-client</groupId>
+  <groupId>ch.iterate.google-http-client</groupId>
   <artifactId>google-http-client-findbugs-test</artifactId>
   <version>1.15.0-rc-SNAPSHOT</version>
   <name>Findbugs Google API Client Library plugin test.</name>
@@ -36,7 +36,7 @@
         <configuration>
           <plugins>
             <plugin>
-              <groupId>com.google.http-client</groupId>
+              <groupId>ch.iterate.google-http-client</groupId>
               <artifactId>google-http-client-findbugs</artifactId>
               <version>${project.version}</version>
             </plugin>
@@ -54,12 +54,12 @@
   </build>
   <dependencies>
     <dependency>
-      <groupId>com.google.http-client</groupId>
+      <groupId>ch.iterate.google-http-client</groupId>
       <artifactId>google-http-client</artifactId>
       <version>${project.version}</version>
     </dependency>
     <dependency>
-      <groupId>com.google.http-client</groupId>
+      <groupId>ch.iterate.google-http-client</groupId>
       <artifactId>google-http-client-findbugs</artifactId>
       <version>${project.version}</version>
     </dependency>
