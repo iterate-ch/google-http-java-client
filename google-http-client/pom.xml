@@ -39,40 +39,6 @@
           </execution>
         </executions>
       </plugin>
-      <!-- Use jarjar to include a private copy of Apache Commons Codec library
-           to avoid a runtime dependency conflict with Android which includes
-           an older version of that library, as well as Guava JDK5. -->
-      <plugin>
-        <groupId>org.sonatype.plugins</groupId>
-        <artifactId>jarjar-maven-plugin</artifactId>
-        <executions>
-          <execution>
-            <phase>package</phase>
-            <goals>
-              <goal>jarjar</goal>
-            </goals>
-            <configuration>
-              <includes>
-                <include>commons-codec:commons-codec</include>
-                <include>com.google.guava:guava-jdk5</include>
-              </includes>
-              <rules>
-                <rule>
-                  <pattern>org.apache.commons.codec.**</pattern>
-                  <result>com.google.api.client.repackaged.org.apache.commons.codec.@1</result>
-                </rule>
-                <rule>
-                  <pattern>com.google.common.**</pattern>
-                  <result>com.google.api.client.repackaged.com.google.common.@1</result>
-                </rule>
-                <keep>
-                  <pattern>com.google.api.client.**</pattern>
-                </keep>
-              </rules>
-            </configuration>
-          </execution>
-        </executions>
-      </plugin>
       <plugin>
         <artifactId>maven-antrun-plugin</artifactId>
         <executions>
